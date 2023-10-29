@@ -4,10 +4,11 @@
 
 Responsive user Registration and Login (SignIn & SignUp) Form functionality using React, NodeJS, ExpressJS and MongoDB and Bootstrap.
 
+<img width="955" alt="image" src="https://github.com/JDBhogate/Registration_Login_Form_MERN_Stack-main/assets/129050974/f61e4728-a1fe-4d23-8ad7-7da1ce75d6c8">
 
-![Screenshot (219)](https://github.com/AkshataGanbote/Registration_Login_Form_MERN_Stack/assets/117456092/442bbe2d-cda7-4d5c-a156-9e9cc9b3f108)
+<img width="953" alt="image" src="https://github.com/JDBhogate/Registration_Login_Form_MERN_Stack-main/assets/129050974/43048d6a-e381-4c19-bd2c-8792f2b7a1b2">
 
-![Screenshot (220)](https://github.com/AkshataGanbote/Registration_Login_Form_MERN_Stack/assets/117456092/01b04452-4e8b-4a24-b680-28c93f2c7550)
+<img width="953" alt="image" src="https://github.com/JDBhogate/Registration_Login_Form_MERN_Stack-main/assets/129050974/f6d52443-ac33-4b60-9f5f-3cc08e8918f8">
 
 
 ## ❓Requirements
@@ -57,5 +58,3 @@ This project uses the following technologies:
 - [Bootstrap](https://getbootstrap.com/) for styling
 
 <br/>
-
-<h2> Do not forget to give a star! ⭐🤗 </h2>
