@@ -8,7 +8,17 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb://127.0.0.1:27017/practice_mern');
+async function connectToMongo() {
+    try {
+      await mongoose.connect('mongodb+srv://jaydeepbhogate:Airforce%40123@mern.w2pz7pg.mongodb.net/practice_mern');
+      console.log('Connected to MongoDB');
+    } catch (err) {
+      console.error('MongoDB connection error: ', err);
+    }
+  }
+  
+  connectToMongo();
+  
 
 app.post('/register', (req, res)=>{
     // To post / insert data into database
@@ -50,6 +60,6 @@ app.post('/login', (req, res)=>{
 })
 
 app.listen(3001, () => {
-    console.log("Server listining on http://127.0.0.1:3001");
+    console.log("Server listining on mongodb+srv://jaydeepbhogate:Airforce%40123@mern.w2pz7pg.mongodb.net/");
 
 });
