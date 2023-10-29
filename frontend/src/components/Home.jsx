@@ -21,7 +21,7 @@ function Home() {
     e.preventDefault();
 
     const dataToSend = {
-      userId: 'yourUserId', // Replace with the actual user's ID
+      userId: 'yourUserId', 
       age: formData.age,
       gender: formData.gender,
       dob: formData.dob,
@@ -29,9 +29,8 @@ function Home() {
     };
 
     axios
-      .post('http://localhost:3001/homeData', dataToSend) // Replace 'http://localhost:3001' with your actual server URL
+      .post('https://mern-regi-app.onrender.com/homeData', dataToSend) 
       .then((result) => {
-        // Handle the response, if needed
       })
       .catch((err) => {
         console.error(err);
